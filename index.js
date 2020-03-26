@@ -1,13 +1,13 @@
-// homebridge-ws/index.js
-// Copyright © 2018-2020 Erik Baauw. All rights reserved.
+// homebridge-ambientws/index.js
+// Copyright © 2020 Mark Klein. All rights reserved.
 //
-// Homebridge plugin for virtual weather station.
+// Homebridge plugin for Ambient weather station.
 
 'use strict'
 
-const WsPlatform = require('./lib/WsPlatform')
+const ambientWsPlatform = require('./lib/ambientWsPlatform')
 const packageJson = require('./package.json')
 
 module.exports = function (homebridge) {
-  WsPlatform.loadPlatform(homebridge, packageJson, 'WS', WsPlatform)
+  ambientWsPlatform.loadPlatform(homebridge, packageJson, 'ambientWS', WsPlatform)
 }
