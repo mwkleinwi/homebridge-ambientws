@@ -1,13 +1,14 @@
 {
-  "name": "homebridge-ws",
-  "version": "2.2.24",
-  "description": "Homebridge plugin for virtual weather station",
-  "author": "Erik Baauw",
+  "name": "homebridge-ambientws",
+  "version": "0.1",
+  "description": "Homebridge plugin for Ambient weather station",
+  "author": "Mark Klein",
   "license": "Apache-2.0",
   "keywords": [
     "homebridge-plugin",
     "homekit",
-    "weather"
+    "weather",
+    "Ambient"
   ],
   "main": "index.js",
   "engines": {
@@ -24,10 +25,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebaauw/homebridge-ws.git"
+    "url": "git+https://github.com/mwkleinwi/homebridge-ambientws.git"
   },
   "bugs": {
-    "url": "https://github.com/ebaauw/homebridge-ws/issues"
+    "url": "https://github.com/mwkleinwi/homebridge-ambientws/issues"
   },
-  "homepage": "https://github.com/ebaauw/homebridge-ws#readme"
+  "homepage": "https://github.com/mwkleinwi/homebridge-ambientws#readme"
 }
