@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "homebridge-lib": "~4.5.5",
-    "moment": "~2.24.0"
+    "moment": "~2.29.2"
   },
   "scripts": {
     "prepare": "standard",
